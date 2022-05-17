@@ -1,6 +1,6 @@
 {
   "name": "jest-transform-graphql",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "description": "Jest transformer for .gql imports",
   "main": "index.js",
   "scripts": {
@@ -8,19 +8,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/remind101/jest-transform-graphql.git"
+    "url": "git+https://github.com/alexcaza/jest-transform-graphql.git"
   },
   "keywords": [
     "jest",
     "graphql"
   ],
-  "author": "Turadg Aleahmad",
-  "license": "ISC",
+  "author": "",
+  "contributors": [
+    {
+      "name": "Turadg Aleahmad",
+      "url": "https://github.com/remind101"
+    }
+  ]
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/remind101/jest-transform-graphql/issues"
+    "url": "https://github.com/alexcaza/jest-transform-graphql/issues"
   },
-  "homepage": "https://github.com/remind101/jest-transform-graphql#readme",
+  "homepage": "https://github.com/alexcaza/jest-transform-graphql#readme",
   "peerDependencies": {
+    "jest": "^28.0.0",
     "graphql-tag": "^2.0.0"
   }
 }
